@@ -1,11 +1,11 @@
-import { getGalleryData } from "./galeria/datosGaleria";
 import { getHeroData } from "./hero/hero";
 
 //----------------Nav
 import navData from "./global/nav";
 //--------------- Productos 
 
-import { getProductData } from "./productos/producto1";
+
+// tablas
 
 export const generarContextoDePagina = (page)=>{
     console.log('page', page);
